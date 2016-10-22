@@ -146,3 +146,13 @@ body {*/
 /*background-image: url("pastelTriangles.jpg");
 background-attachment: fixed;
 }*/
+
+#clockdiv {
+  font-size: 10px;
+}
+
+#valueh, #valuem, #values {
+  font-size: 40px;
+  color: #660000;
+  
+}
