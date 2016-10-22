@@ -11,6 +11,7 @@ body {
   background-repeat: no-repeat;
   background-image: url("draw-nyc.jpg");
   background-attachment: fixed;
+  background-size: cover;
 }
 
 /* h4 {
