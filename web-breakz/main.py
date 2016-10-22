@@ -15,7 +15,7 @@
 # limitations under the License.
 #
 import webapp2
-import winsound
+#import winsound
 import jinja2
 import os
 
@@ -30,7 +30,7 @@ class MainHandler(webapp2.RequestHandler):
 
 class TimerHandler(webapp2.RequestHandler):
     def get(self):
-        winsound.Beep(300, 4000)
+       winsound.Beep(300, 4000)
 
 app = webapp2.WSGIApplication([
     ('/', MainHandler),
