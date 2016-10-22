@@ -2,7 +2,6 @@ var audio = new Audio('static/get-onto-the-dancefloor.wav');
 
 
 function startTimer(duration, display) {
-    audio.play();
     var timer = duration, hours, minutes, seconds;
     setInterval(function () {
         hours = 00;
@@ -12,6 +11,12 @@ function startTimer(duration, display) {
         hours = hours < 10 ? "0" + hours : hours;
         minutes = minutes < 10 ? "0" + minutes : minutes;
         seconds = seconds < 10 ? "0" + seconds : seconds;
+
+        if(seconds == 0 && minutes == 0){
+          if (timer == 0){
+            audio.play();
+          }
+        }
 
         document.querySelector('.clockdiv .valueh').innerHTML = hours;
         document.querySelector('.clockdiv .valuem').innerHTML = minutes;
@@ -23,7 +28,7 @@ function startTimer(duration, display) {
     }, 1000);
 }
 
-window.onload = function () {
+  function button_function () {
     var thirtyMinutes = 60 * 1,
         display = document.querySelector('#time');
     startTimer(thirtyMinutes, display);
