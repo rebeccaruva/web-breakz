@@ -30,7 +30,8 @@ class MainHandler(webapp2.RequestHandler):
 
 class TimerHandler(webapp2.RequestHandler):
     def get(self):
-        winsound.Beep(300, 4000)
+        mainPageTemplate = jinja_env.get_template('timerpage.html')
+        self.response.write(mainPageTemplate.render())
 app = webapp2.WSGIApplication([
     ('/', MainHandler),
     ('/t', TimerHandler)
