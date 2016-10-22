@@ -30,8 +30,24 @@ body {
   font-size: 25px;
 }
 
-/* button style */
+/* start button style */
 #start {
+  background-color: #2eb8b8;
+  border: none;
+  color: white;
+  padding: 12px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13.5px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  outline: none;
+}
+
+/* stop button style */
+#stop {
   background-color: #2eb8b8;
   border: none;
   color: white;
