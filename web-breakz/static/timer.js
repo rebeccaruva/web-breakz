@@ -1,5 +1,5 @@
-var audio = new Audio('get-onto-the-dancefloor.wav');
-var isPlaying = false;
+//var audio = new Audio('get-onto-the-dancefloor.wav');
+//var isPlaying = false;
 
 // function updateTime(){
 //     // var currentTime = new Date();
@@ -22,6 +22,7 @@ var isPlaying = false;
 //     document.querySelector('.clockdiv .values').innerHTML = seconds;
 // }
 // setInterval(updateTime, 1000);
+
 
 function startTimer(duration, display) {
     var timer = duration, minutes, seconds;

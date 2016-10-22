@@ -15,7 +15,6 @@
 # limitations under the License.
 #
 import webapp2
-#import winsound
 import jinja2
 import os
 
@@ -27,12 +26,6 @@ class MainHandler(webapp2.RequestHandler):
     def get(self):
         mainPageTemplate = jinja_env.get_template('home.html')
         self.response.write(mainPageTemplate.render())
-
-#class TimerHandler(webapp2.RequestHandler):
-#    def get(self):
-#       winsound.Beep(300, 4000)
-#       mainPageTemplate = jinja_env.get_template('timerpage.html')
-#       self.response.write(mainPageTemplate.render())
 
 app = webapp2.WSGIApplication([
     ('/', MainHandler),

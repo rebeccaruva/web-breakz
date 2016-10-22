@@ -12,12 +12,15 @@
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <style type="text/css">a {text-decoration: none}</style>
-    <link rel="python" href="web-breakz/main.py"/>
-    <script src="static/timer.js"></script>
+    <!-- <link rel="python" href="web-breakz/main.py"/> -->
+    <link rel="python" href="web-breakz/countdown.py"/>
+    <script src="../static/timer.js"></script>
+
   </head>
   <body>
     <center>
     <h1 id="title">Welcome to Web Breakz</h1>
+    <div id="clockdiv"></div>
 
     <!-- temp button w/ sound -->
     <!-- <script src='https://code.jquery.com/jquery-2.2.0.min.js'></script>
@@ -43,6 +46,7 @@
     </script> -->
 
     <!-- info about web app -->
+
     <h4 id="message">We want you to take breakz from the interwebs. Don't get us mad.</h4>
     <div class="clockdiv">
       Hours: <span class="valueh"></span><br>
