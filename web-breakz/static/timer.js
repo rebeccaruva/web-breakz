@@ -3,6 +3,7 @@ var isPlaying = false;
 
 function updateTime(){
     var currentTime = new Date();
+    var hello = 'hi';
     var hours = currentTime.getHours();
     var minutes = currentTime.getMinutes();
     var seconds = currentTime.getSeconds();
@@ -13,10 +14,8 @@ function updateTime(){
         setTimeout(function() { audio.pause(); isPlaying = false; }, 600000);
     }
 
-    return{
-      'hours' : hours,
-      'minutes' : minutes,
-      'seconds' : seconds
-    };
+    document.querySelector('.clockdiv .valueh').innerHTML = hours;
+    document.querySelector('.clockdiv .valuem').innerHTML = minutes;
+    document.querySelector('.clockdiv .values').innerHTML = seconds;
 }
 setInterval(updateTime, 20000);
