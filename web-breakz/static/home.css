@@ -1,13 +1,24 @@
+/* homepage title style */
 #title {
   color: #ff4d4d;
   font-family: 'VT323', monospace;
   font-size: 85px;
 }
 
+/* homepage background image */
+#homepage {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("draw-nyc.jpg");
+  background-attachment: fixed;
+}
+
 /* h4 {
   color: black;
   font-family: 'Rock Salt', cursive;
 }*/
+
+/* homepage about style */
 #message{
   /*font-family: 'Rokkitt', serif;*/
   /*font-family: 'Monda', sans-serif;*/
