@@ -5,8 +5,13 @@
 }
 
 #message{
-  font-family: 'Oswald', sans-serif;
-  font-size: 15px;
+  /*font-family: 'Rokkitt', serif;*/
+  /*font-family: 'Monda', sans-serif;*/
+  /*font-family: 'Source Code Pro', monospace;*/
+  /*font-family: 'Sintony', sans-serif;*/
+  /*font-family: 'Scope One', serif;*/
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 25px;
 }
 /*#me {
 border-style: solid;
