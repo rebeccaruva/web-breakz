@@ -15,11 +15,16 @@
 # limitations under the License.
 #
 import webapp2
+import winsound
 
 class MainHandler(webapp2.RequestHandler):
     def get(self):
         self.response.write('Hello world!')
 
+class TimerHandler(webapp2.RequestHandler):
+    def get(self):
+        winsound.Beep(300, 4000)
 app = webapp2.WSGIApplication([
-    ('/', MainHandler)
+    ('/', MainHandler),
+    ('/t', TimerHandler)
 ], debug=True)
