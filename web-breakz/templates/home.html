@@ -2,16 +2,40 @@
 <html lang="en">
   <head>
     <title>wEb brEaKz</title>
-    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P|Share+Tech|VT323|Warnes" rel="stylesheet">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
+    <link rel="stylesheet" href="web-breakz/static/home.css"/>
+    <style type="text/css">a {text-decoration: none}</style>
   </head>
   <body>
     <center>
-    <h1>Welcome to Web Breakz</h1>
-    <script src='https://code.jquery.com/jquery-2.2.0.min.js'></script>
+    <h1 id="title">Welcome to Web Breakz</h1>
+
+    <!-- temp button w/ sound -->
+    <!-- <script src='https://code.jquery.com/jquery-2.2.0.min.js'></script>
     <script src='https://cdn.rawgit.com/admsev/jquery-play-sound/master/jquery.playSound.js'></script>
 
     <button onclick='$.playSound("http://www.noiseaddicts.com/samples_1w72b820/3724")'>Example Sound Play</button>
+    </script> -->
+
+    <!-- temp alert with timeout -->
+    <!-- <script>
+    function play() {
+            var audio = document.getElementById("audio");
+            audio.play();
+            setTimeout(function(){alert("Extraction is finished");},10);
+        }
+    </script> -->
+
+    <!-- alert when page loads -->
+    <script>
+      $(document).ready(function(){
+        alert('Ready to take some breakz?');
+      });
     </script>
+
+    <!-- info about web app -->
     <h4>We want you to take breakz from the interwebs. Don't get us mad.</h4>
     </center>
   </body>
