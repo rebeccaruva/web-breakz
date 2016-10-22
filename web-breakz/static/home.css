@@ -6,7 +6,7 @@
 }
 
 /* homepage background image */
-#homepage {
+body {
   background-position: center;
   background-repeat: no-repeat;
   background-image: url("draw-nyc.jpg");
