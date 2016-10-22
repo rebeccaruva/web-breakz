@@ -20,7 +20,7 @@ body {
 }*/
 
 /* homepage about style */
-#message{
+#message {
   /*font-family: 'Rokkitt', serif;*/
   /*font-family: 'Monda', sans-serif;*/
   /*font-family: 'Source Code Pro', monospace;*/
@@ -29,6 +29,22 @@ body {
   font-family: 'Ubuntu Mono', monospace;
   font-size: 25px;
 }
+
+/* button style */
+.start {
+  background-color: #2eb8b8;
+  border: none;
+  color: white;
+  padding: 12px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13.5px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
 /*#me {
 border-style: solid;
 border-width: 5px;
@@ -158,13 +174,3 @@ body {*/
 /*background-image: url("pastelTriangles.jpg");
 background-attachment: fixed;
 }*/
-
-#clockdiv {
-  font-size: 10px;
-}
-
-#valueh, #valuem, #values {
-  font-size: 40px;
-  color: #660000;
-  
-}
