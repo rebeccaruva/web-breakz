@@ -22,7 +22,10 @@ function startTimer(duration, display) {
         }
 
         if (timer == 0){
-
+          function stop_function (){
+            stop_audio = true
+            audio.pause();
+          };
         }
         else if (--timer < 0) {
             timer = duration;
@@ -35,9 +38,4 @@ function button_function () {
     var thirtyMinutes = 60 * time,
     display = document.querySelector('#time');
     startTimer(thirtyMinutes, display);
-};
-
-function stop_function (){
-  stop_audio = true
-  audio.stop();
 };
