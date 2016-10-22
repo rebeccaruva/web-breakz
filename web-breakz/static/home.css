@@ -159,12 +159,25 @@ body {*/
 background-attachment: fixed;
 }*/
 
-#clockdiv {
+/*#clockdiv {
   font-size: 10px;
-}
+}*/
 
 #valueh, #valuem, #values {
-  font-size: 40px;
+  font-size: 80px;
   color: #660000;
-  
+
+}
+
+#start {
+  outline-style: double;
+  background-color: transparent;
+  border: black;
+
+}
+
+table {
+  text-align: center;
+  border-spacing: 10px;
+  width: 40%;
 }

@@ -1,5 +1,4 @@
 var audio = new Audio('static/get-onto-the-dancefloor.wav');
-
 function startTimer(duration, display) {
     var timer = duration, minutes, seconds;
 
@@ -30,8 +29,9 @@ function startTimer(duration, display) {
 }
 
 function button_function () {
-    var time = 320
+    var time = 5
     var thirtyMinutes = 60 * time,
     display = document.querySelector('#time');
     startTimer(thirtyMinutes, display);
+    isPlaying = False
 };
