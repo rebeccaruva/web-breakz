@@ -9,7 +9,7 @@
   font-size: 25px;
 }
 
-.backHome {
+.button {
   background-color: #2eb8b8;
   border: none;
   color: white;
@@ -25,6 +25,6 @@
   font-family: sans-serif;
 }
 
-.backHome:hover {
+.button:hover {
   opacity: .775;
 }
