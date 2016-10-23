@@ -17,12 +17,14 @@ function startTimer(duration, display) {
         document.querySelector('.clockdiv .valuem').innerHTML = minutes;
         document.querySelector('.clockdiv .values').innerHTML = seconds;
 
-        if(seconds == 0 && minutes == 0){
+        if(seconds == 0 && minutes == 0 && !stop_audio){
           audio.play();
         }
 
         if (timer == 0){
-
+          if(stop_audio){
+            audio.pause();
+          }
         }
         else if (--timer < 0) {
             timer = duration;
@@ -32,7 +34,8 @@ function startTimer(duration, display) {
 
 function button_function () {
 
-    var time = 1
+    stop_audio = false;
+    var time = 1;
     var thirtyMinutes = 60 * time,
     display = document.querySelector('#time');
     startTimer(thirtyMinutes, display);
@@ -41,7 +44,6 @@ function button_function () {
 
 function stop_function (){
   stop_audio = true
-  audio.stop();
 };
 
 // while(stop_audio = False){
