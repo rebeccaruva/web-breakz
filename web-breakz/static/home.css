@@ -3,6 +3,7 @@
   color: #ff4d4d;
   font-family: 'VT323', monospace;
   font-size: 85px;
+  text-shadow: 2px 2px 2.5px rgba(150, 150, 150, 1);
 }
 
 /* homepage background image */
@@ -14,8 +15,7 @@ body {
   background-size: cover;
 }
 
-
-/* homepage about style */
+/* homepage info style */
 #message {
   font-family: 'Ubuntu Mono', monospace;
   font-size: 25px;
@@ -35,6 +35,11 @@ body {
   cursor: pointer;
   border-radius: 8px;
   outline: none;
+  font-family: sans-serif;
+}
+
+#start:hover {
+  opacity: .775;
 }
 
 /* stop button style */
@@ -51,8 +56,33 @@ body {
   cursor: pointer;
   border-radius: 8px;
   outline: none;
+  font-family: sans-serif;
 }
 
+#stop:hover {
+  opacity: .775;
+}
+
+/* Learn More link Button Style */
+.button {
+  background-color: #ff4d4d;
+  border: none;
+  color: white;
+  padding: 12px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13.5px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  outline: none;
+  font-family: sans-serif;
+}
+
+.button:hover{
+  opacity: .775;
+}
 
 #valueh, #valuem, #values {
   font-size: 80px;
