@@ -83,3 +83,22 @@ body {
 .button:hover{
   opacity: .775;
 }
+
+#valueh, #valuem, #values {
+  font-size: 80px;
+  color: #660000;
+
+}
+
+#start {
+  outline-style: double;
+  background-color: black;
+  border: black;
+
+}
+
+table {
+  text-align: center;
+  border-spacing: 10px;
+  width: 40%;
+}
