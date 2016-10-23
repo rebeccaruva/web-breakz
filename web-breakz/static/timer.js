@@ -35,13 +35,19 @@ function startTimer(duration, display) {
 }
 
 function button_function () {
+
     stop_audio = false;
     var time = .25;
     var thirtyMinutes = 60 * time,
     display = document.querySelector('#time');
     startTimer(thirtyMinutes, display);
+    isPlaying = False
 };
 
 function stop_function (){
   stop_audio = true
 };
+
+// while(stop_audio = False){
+//   document.getElementById("stop").style.display = 'none';
+// }

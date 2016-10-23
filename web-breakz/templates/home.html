@@ -48,13 +48,34 @@
 
     <h4 id="message">We want you to take breakz from the interwebs. Don't get us mad.</h4>
     <div class="clockdiv">
-      Hours: <span class="valueh"></span><br>
-      Minutes: <span class="valuem"></span><br>
-      Seconds: <span class="values"></span>
+    <table>
+      <thead>
+        <tr>
+          <th>Hours: </th>
+          <th>Minutes: </th>
+          <th>Seconds: </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="valueh"></span><br></td>
+          <td><span class="valuem"></span><br></td>
+          <td><span class="values"></span></td>
+        </tr>
+        <tfoot>
+          <tr>
+            <td colspan='3'>Until your next break</tr>
+        </tfoot>
+      </tbody>
+    </table>
     </div>
-    <div> Until your next break </div>
     </center>
+    <center>
+      <!-- <button onclick="button_function()" id="start">Judge me and my internet use</button> -->
+    </center>
+
     <button onclick="button_function()" id="start">judge me and my internet use</button>
     <button onclick="stop_function()" id="stop">stop this madness</button>
+
   </body>
 </html>

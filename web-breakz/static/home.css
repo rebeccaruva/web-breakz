@@ -14,18 +14,9 @@ body {
   background-size: cover;
 }
 
-/* h4 {
-  color: black;
-  font-family: 'Rock Salt', cursive;
-}*/
 
 /* homepage about style */
 #message {
-  /*font-family: 'Rokkitt', serif;*/
-  /*font-family: 'Monda', sans-serif;*/
-  /*font-family: 'Source Code Pro', monospace;*/
-  /*font-family: 'Sintony', sans-serif;*/
-  /*font-family: 'Scope One', serif;*/
   font-family: 'Ubuntu Mono', monospace;
   font-size: 25px;
 }
@@ -62,132 +53,22 @@ body {
   outline: none;
 }
 
-/*#me {
-border-style: solid;
-border-width: 5px;
+
+#valueh, #valuem, #values {
+  font-size: 80px;
+  color: #660000;
+
 }
 
-#aboutSurprise {
-opacity: 0.7;
+#start {
+  outline-style: double;
+  background-color: black;
+  border: black;
+
 }
 
-#aboutSurprise:hover {
-opacity: 1;
+table {
+  text-align: center;
+  border-spacing: 10px;
+  width: 40%;
 }
-
-#fav {
-background-color: white;
-opacity: 0.85;
-}
-
-#fav:hover {
-opacity: 1;
-}
-
-div {
-opacity: 0.8;
-}
-
-div:hover {
-opacity: 1;
-}
-
-#name {
-color: #0059b3;
-/* font-family: 'Bungee Shade', cursive; */
-/* font-family: 'VT323', monospace;
-font-family: 'Special Elite', cursive; */
-/*font-family: 'VT323', monospace;
-font-family: 'Special Elite', cursive;
-font-family: 'Press Start 2P', cursive;
-font-size: 40px;
-}
-
-#myFaves {
-color: #002080;
-font-family: 'VT323', monospace;
-font-family: 'Special Elite', cursive;
-}
-
-#aboutMe {
-color: purple; /* #002080; */
-/*font-family: 'VT323', monospace;
-font-family: 'Special Elite', cursive;
-font-size: 18px;
-}
-
-#myFave {
-color: #200080;
-font-family: 'VT323', monospace;*/
-/*font-family: 'Special Elite', cursive;
-font-size: 20px;
-}
-
-#links {
-color: #ff4d4d;
-font-family: 'VT323', monospace;
-font-size: 25px;
-}
-
-#profileLinks {
-color: purple;
-font-family: 'VT323', monospace;
-font-size: 20px;
-}*/
-
-/*#break {
-color: #200080;
-font-family: 'VT323', monospace;
-font-family: 'Special Elite', cursive;
-font-size: 20px;
-}
-
-#goals {
-color: #ff4d4d;
-font-family: 'VT323', monospace;
-font-size: 25px;
-}
-
-#faveHeader {
-color: #6600cc;
-font-family: 'VT323', monospace;
-font-family: 'Special Elite', cursive;
-font-size: 20px;
-}*/
-
-/*.option {
-color: #ff4d4d;
-font-family: 'VT323', monospace;
-font-size: 25px;
-}
-
-h1 {
-color: #0059b3;
-/* font-family: 'Bungee Shade', cursive; */
-/* font-family: 'VT323', monospace;
-font-family: 'Special Elite', cursive; */
-/*font-family: 'VT323', monospace;
-font-family: 'Special Elite', cursive;
-font-family: 'Press Start 2P', cursive;
-font-size: 30px;
-}
-
-h2 {
-color: #ff4d4d;
-font-family: 'VT323', monospace;
-font-size: 27px;
-}*/
-
-/*h3 {
-color: #0066cc;
-font-family: 'VT323', monospace;
-font-family: 'Special Elite', cursive;
-}
-
-body {*/
-/* background-image: url("sootspirits.png") */
-/*    background-color: lightblue; */
-/*background-image: url("weirdDesignPastel.jpg");*/
-/*background-image: url("pastelTriangles.jpg");
-background-attachment: fixed;
-}*/
