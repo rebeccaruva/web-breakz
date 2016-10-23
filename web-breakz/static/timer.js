@@ -5,9 +5,9 @@ function startTimer(duration, display) {
     var timer = duration, minutes, seconds;
 
     setInterval(function () {
-        hours = parseInt(timer / (60 * 60), 10);
-        minutes = parseInt(timer / 60, 10) - hours * 60;
-        seconds = parseInt(timer % 60, 10);
+        hours = parseInt(timer / (60 * 60));
+        minutes = parseInt(timer / 60) - hours * 60;
+        seconds = parseInt(timer % 60);
 
         hours = hours < 10 ? "0" + hours : hours;
         minutes = minutes < 10 ? "0" + minutes : minutes;
@@ -17,14 +17,16 @@ function startTimer(duration, display) {
         document.querySelector('.clockdiv .valuem').innerHTML = minutes;
         document.querySelector('.clockdiv .values').innerHTML = seconds;
 
-        if(seconds == 0 && minutes == 0 && !stop_audio){
-          audio.play();
-        }
-
-        if (timer == 0){
-          if(stop_audio){
+        if(seconds === 0 && minutes === 0) {
+          if(!stop_audio){
+            audio.play();
+          }else{
             audio.pause();
           }
+        }
+
+        if(timer === 0){
+
         }
         else if (--timer < 0) {
             timer = duration;
@@ -35,10 +37,11 @@ function startTimer(duration, display) {
 function button_function () {
 
     stop_audio = false;
-    var time = 1;
+    var time = .25;
     var thirtyMinutes = 60 * time,
     display = document.querySelector('#time');
     startTimer(thirtyMinutes, display);
+
     isPlaying = False
 };
 

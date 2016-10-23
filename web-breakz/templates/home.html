@@ -50,10 +50,10 @@
     <div class="clockdiv">
     <table>
       <thead>
-        <tr>
-          <th>Hours: </th>
-          <th>Minutes: </th>
-          <th>Seconds: </th>
+        <tr id="hours">
+          <th>Hours </th>
+          <th>Minutes </th>
+          <th>Seconds </th>
         </tr>
       </thead>
       <tbody>
@@ -64,7 +64,7 @@
         </tr>
         <tfoot>
           <tr>
-            <td colspan='3'>Until your next break</tr>
+            <td colspan='3' id="hr">Until your next break</tr>
         </tfoot>
       </tbody>
     </table>
@@ -73,9 +73,11 @@
     <center>
       <!-- <button onclick="button_function()" id="start">Judge me and my internet use</button> -->
     </center>
-
+    <br>
+  <center>
     <button onclick="button_function()" id="start">judge me and my internet use</button>
     <button onclick="stop_function()" id="stop">stop this madness</button>
     <a href="/about" class="button">why am I here?</a>
+  </center>
   </body>
 </html>
