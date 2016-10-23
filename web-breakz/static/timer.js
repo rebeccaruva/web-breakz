@@ -32,6 +32,9 @@ function startTimer(duration, display) {
     var timer = duration, minutes, seconds;
 
         var myVar = setInterval(function () {
+        var hours = document.getElementsByName("hours")[0].value;
+        var minutes = document.getElementsByName("minutes")[0].value;
+        var seconds = document.getElementsByName("seconds")[0].value;
         hours = parseInt(timer / (60 * 60));
         minutes = parseInt(timer / 60) - hours * 60;
         seconds = parseInt(timer % 60);
