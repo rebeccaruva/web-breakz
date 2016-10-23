@@ -1,0 +1,29 @@
+#questions {
+  color: #2eb8b8;
+  font-family: 'VT323', monospace;
+}
+
+#answers {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 17px;
+}
+
+.backHome {
+  background-color: #2eb8b8;
+  border: none;
+  color: white;
+  padding: 12px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13.5px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  outline: none;
+  font-family: sans-serif;
+}
+
+.backHome:hover {
+  opacity: .775;
+}

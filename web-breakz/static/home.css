@@ -3,6 +3,7 @@
   color: #ff4d4d;
   font-family: 'VT323', monospace;
   font-size: 85px;
+  text-shadow: 2px 2px 2.5px rgba(150, 150, 150, 1);
 }
 
 /* homepage background image */
@@ -14,18 +15,8 @@ body {
   background-size: cover;
 }
 
-/* h4 {
-  color: black;
-  font-family: 'Rock Salt', cursive;
-}*/
-
-/* homepage about style */
+/* homepage info style */
 #message {
-  /*font-family: 'Rokkitt', serif;*/
-  /*font-family: 'Monda', sans-serif;*/
-  /*font-family: 'Source Code Pro', monospace;*/
-  /*font-family: 'Sintony', sans-serif;*/
-  /*font-family: 'Scope One', serif;*/
   font-family: 'Ubuntu Mono', monospace;
   font-size: 25px;
 }
@@ -44,6 +35,11 @@ body {
   cursor: pointer;
   border-radius: 8px;
   outline: none;
+  font-family: sans-serif;
+}
+
+#start:hover {
+  opacity: .775;
 }
 
 /* stop button style */
@@ -60,134 +56,30 @@ body {
   cursor: pointer;
   border-radius: 8px;
   outline: none;
+  font-family: sans-serif;
 }
 
-/*#me {
-border-style: solid;
-border-width: 5px;
+#stop:hover {
+  opacity: .775;
 }
 
-#aboutSurprise {
-opacity: 0.7;
+/* Learn More link Button Style */
+.button {
+  background-color: #ff4d4d;
+  border: none;
+  color: white;
+  padding: 12px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13.5px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  outline: none;
+  font-family: sans-serif;
 }
 
-#aboutSurprise:hover {
-opacity: 1;
+.button:hover{
+  opacity: .775;
 }
-
-#fav {
-background-color: white;
-opacity: 0.85;
-}
-
-#fav:hover {
-opacity: 1;
-}
-
-div {
-opacity: 0.8;
-}
-
-div:hover {
-opacity: 1;
-}
-
-#name {
-color: #0059b3;
-/* font-family: 'Bungee Shade', cursive; */
-/* font-family: 'VT323', monospace;
-font-family: 'Special Elite', cursive; */
-/*font-family: 'VT323', monospace;
-font-family: 'Special Elite', cursive;
-font-family: 'Press Start 2P', cursive;
-font-size: 40px;
-}
-
-#myFaves {
-color: #002080;
-font-family: 'VT323', monospace;
-font-family: 'Special Elite', cursive;
-}
-
-#aboutMe {
-color: purple; /* #002080; */
-/*font-family: 'VT323', monospace;
-font-family: 'Special Elite', cursive;
-font-size: 18px;
-}
-
-#myFave {
-color: #200080;
-font-family: 'VT323', monospace;*/
-/*font-family: 'Special Elite', cursive;
-font-size: 20px;
-}
-
-#links {
-color: #ff4d4d;
-font-family: 'VT323', monospace;
-font-size: 25px;
-}
-
-#profileLinks {
-color: purple;
-font-family: 'VT323', monospace;
-font-size: 20px;
-}*/
-
-/*#break {
-color: #200080;
-font-family: 'VT323', monospace;
-font-family: 'Special Elite', cursive;
-font-size: 20px;
-}
-
-#goals {
-color: #ff4d4d;
-font-family: 'VT323', monospace;
-font-size: 25px;
-}
-
-#faveHeader {
-color: #6600cc;
-font-family: 'VT323', monospace;
-font-family: 'Special Elite', cursive;
-font-size: 20px;
-}*/
-
-/*.option {
-color: #ff4d4d;
-font-family: 'VT323', monospace;
-font-size: 25px;
-}
-
-h1 {
-color: #0059b3;
-/* font-family: 'Bungee Shade', cursive; */
-/* font-family: 'VT323', monospace;
-font-family: 'Special Elite', cursive; */
-/*font-family: 'VT323', monospace;
-font-family: 'Special Elite', cursive;
-font-family: 'Press Start 2P', cursive;
-font-size: 30px;
-}
-
-h2 {
-color: #ff4d4d;
-font-family: 'VT323', monospace;
-font-size: 27px;
-}*/
-
-/*h3 {
-color: #0066cc;
-font-family: 'VT323', monospace;
-font-family: 'Special Elite', cursive;
-}
-
-body {*/
-/* background-image: url("sootspirits.png") */
-/*    background-color: lightblue; */
-/*background-image: url("weirdDesignPastel.jpg");*/
-/*background-image: url("pastelTriangles.jpg");
-background-attachment: fixed;
-}*/

@@ -27,7 +27,13 @@ class MainHandler(webapp2.RequestHandler):
         mainPageTemplate = jinja_env.get_template('home.html')
         self.response.write(mainPageTemplate.render())
 
+class AboutHandler(webapp2.RequestHandler):
+    def get(self):
+        aboutPageTemplate = jinja_env.get_template('about.html')
+        self.response.write(aboutPageTemplate.render())
+
 app = webapp2.WSGIApplication([
     ('/', MainHandler),
+    ('/about', AboutHandler)
 #    ('/t', TimerHandler)
 ], debug=True)
