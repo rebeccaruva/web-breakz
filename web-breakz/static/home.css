@@ -2,7 +2,7 @@
 #title {
   color: #ff4d4d;
   font-family: 'VT323', monospace;
-  font-size: 85px;
+  font-size: 90px;
   text-shadow: 2px 2px 2.5px rgba(150, 150, 150, 1);
 }
 
@@ -101,4 +101,27 @@ table {
   text-align: center;
   border-spacing: 10px;
   width: 40%;
+}
+
+#hours{
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 20px;
+}
+
+#hr{
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 20px;
+}
+
+.valueh{
+  font-family:'VT323', monospace;
+  font-size: 110px;
+}
+.valuem{
+  font-family:'VT323', monospace;
+  font-size: 110px;
+}
+.values{
+  font-family:'VT323', monospace;
+  font-size: 110px;
 }
