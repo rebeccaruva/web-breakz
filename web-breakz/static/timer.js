@@ -1,31 +1,13 @@
-// var time = 60 * 2;
-// var timer = time;
-// var myVar = setInterval( function(){ myTimer(time) }, 1000);
-//
-// function myTimer(time){
-//   var hours = parseInt(time / (60 * 60), 10);
-//   var minutes = parseInt((time/ 60) - hours * 60, 10);
-//   var seconds = parseInt((time % 60), 10);
-//
-//   hours = hours < 10 ? "0" + hours : hours;
-//   minutes = minutes < 10 ? "0" + minutes : minutes;
-//   seconds = seconds < 10 ? "0" + seconds : seconds;
-//
-//   document.querySelector('.clockdiv .valueh').innerHTML = hours;
-//   document.querySelector('.clockdiv .valuem').innerHTML = minutes;
-//   document.querySelector('.clockdiv .values').innerHTML = seconds;
-//
-//   time -= 1;
-//
-//   if(time == 0){
-//     clearInterval(myVar);
-//   }
-// }
-//
-// function myStopFunction(){
-// }
+var songs = ["static/another-loud-no.wav",
+            "static/dragon_ball_z.mp3",
+            "static/evillaugh.mp3",
+            "static/for-shame.wav"
+            "static/get-onto-the-dancefloor.wav",
+            "static/zombie-yell2.wav"
+            ]
 
-var audio = new Audio('static/get-onto-the-dancefloor.wav');
+var audio = new Audio(songs[Math.floor((Math.random()*6)+1);
+]);
 var stop_audio = false;
 
 function startTimer(duration, display) {
@@ -65,12 +47,10 @@ function startTimer(duration, display) {
 function button_function () {
 
     stop_audio = false;
-    var time = 1;
+    var time = 0.25;
     var thirtyMinutes = 60 * time,
     display = document.querySelector('#time');
     startTimer(thirtyMinutes, display);
-
-    isPlaying = False
 };
 
 function stop_function (){
